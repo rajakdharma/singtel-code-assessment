@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class AnimalAcitivityControllers {
 	
-	@RequestMapping("/sounded-native-tongue1")
+	@RequestMapping("/sounded-native-tongue")
 	@ResponseBody
 	public static String checkNativeTongue(@RequestParam(value="locale") String locale) {
 		
